@@ -23,7 +23,7 @@ export default function Hero() {
                     <img
                         src={character}
                         className="max-w-sm rounded-lg"
-                        alt="picture"
+                        alt="pictureCharacter"
                     />
                 </motion.div>
 
@@ -93,13 +93,13 @@ export default function Hero() {
                         transition={{ delay: 0.3, duration: 0.5 }}
                         className="flex justify-center mt-1"
                     >
-                        <a href="https://www.linkedin.com/in/kuangyao-mai-3045961a0/" target="_blank" className="btn btn-sm text-2xl btn-outline  border-0 custom-btn">
+                        <a href="https://www.linkedin.com/in/kuangyao-mai-3045961a0/" target="_blank" rel="noreferrer" className="btn btn-sm text-2xl btn-outline  border-0 custom-btn">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href="mailto:maikuangyao9428@gmail.com" target="_blank" className="btn btn-sm text-2xl btn-outline  border-0 custom-btn">
+                        <a href="mailto:maikuangyao9428@gmail.com" target="_blank" rel="noreferrer" className="btn btn-sm text-2xl btn-outline  border-0 custom-btn">
                             <FontAwesomeIcon icon={faEnvelope} />
                         </a>
-                        <a href="https://github.com/kmai531" target="_blank" className="btn btn-sm text-2xl btn-outline  border-0 custom-btn">
+                        <a href="https://github.com/kmai531" target="_blank" rel="noreferrer" className="btn btn-sm text-2xl btn-outline  border-0 custom-btn">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </motion.div>

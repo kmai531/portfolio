@@ -21,7 +21,7 @@ export default function Footer() {
                 <p>Copyright © 2023 - All right reserved</p>
             </div>
             <div className="grid-flow-col gap-1 md:place-self-center md:justify-self-end">
-                <a href="https://www.linkedin.com/in/kuangyao-mai-3045961a0/" target="_blank"  className="btn btn-xs text-2xl btn-outline  border-0 custom-btn">
+                <a href="https://www.linkedin.com/in/kuangyao-mai-3045961a0/" target="_blank" rel="noreferrer" className="btn btn-xs text-2xl btn-outline  border-0 custom-btn">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a href="mailto:maikuangyao9428@gmail.com" className="btn btn-xs text-2xl btn-outline  border-0 custom-btn">

@@ -52,7 +52,7 @@ const Experience = () => {
                             <p>
                                 Retro Mobile Game Database
                             </p>
-                            <a className='btn btn-xs text-base btn-outline  border-0 custom-btn' href='http://database.mglab.chass.ncsu.edu/' target="_blank"><FontAwesomeIcon icon={faLink} /></a>
+                            <a className='btn btn-xs text-base btn-outline  border-0 custom-btn' href='http://database.mglab.chass.ncsu.edu/' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink} /></a>
                         </h5>
                         <h1>
                             <div className='flex items-center gap-6'>

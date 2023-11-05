@@ -87,13 +87,13 @@ const Dropdown = () => {
                         </Link>
                     </li>
                     <li>
-                        <a
+                        <button
                             onClick={() => {
                                 window.my_modal_3.showModal();
                             }}
                         >
                             Contact
-                        </a>
+                        </button>
                     </li>
                 </ul>
             </div>
