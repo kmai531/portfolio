@@ -28,7 +28,7 @@ export default function AboutMe() {
                         ease: 'easeInOut',
                     }}
                 >
-                    <img src={aboutMe} className="max-w-sm rounded-lg" />
+                    <img src={aboutMe} alt='myself' className="max-w-sm rounded-lg" />
                 </motion.div>
 
                 <div className="lg:ml-4 lg:mr-12 lg:mt-8 lg:text-left lg:w-2/5 sm:w-3/4 sm:text-center text-center">

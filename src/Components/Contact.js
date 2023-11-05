@@ -7,12 +7,12 @@ export default function Contact() {
                 <h3 className="font-bold text-lg">Contact </h3>
                 <p className="py-4">
                     Email:{" "}
-                    <a className="link link-primary">
+                    <a href="mailto:maikuangyao9428@gmail.com" target="_blank" rel="noreferrer" className="link link-primary">
                         maikuangyao9428@gmail.com
                     </a>
                 </p>
                 <p className="py-4">
-                    Phone: <a className="text-primary"> (919) 916-9157</a>
+                    Phone: <span className="text-primary"> (919) 916-9157</span>
                 </p>
             </form>
             <form method="dialog" className="modal-backdrop">

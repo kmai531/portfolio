@@ -36,7 +36,7 @@ function HorizontalCard({ title, description, imgSrc, tags = [], link }) {
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
                     <span className='flex items-center gap-2'>
                         <span>{title}</span>
-                        <a href={link} target="_blank" className='btn btn-sm text-xl btn-outline  border-0 custom-btn'>
+                        <a href={link} target="_blank" rel="noreferrer" className='btn btn-sm text-xl btn-outline  border-0 custom-btn'>
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </span>
