@@ -58,8 +58,8 @@ export default function AboutMe() {
                         Carolina State University on my way to earning a
                         Bachelor's in Computer Science. Through projects and
                         coursework, I am experienced with a diverse set of
-                        technologies, including Java, C, C++, HTML, CSS, and
-                        several JavaScript frameworks. I enjoy solving problems
+                        technologies, including Java, C, C++, HTML, CSS,
+                        several JS frameworks, etc. I enjoy solving problems
                         and am always looking for real-world challenges to apply
                         my academic knowledge, and I am eager to collaborate on
                         innovative solutions.

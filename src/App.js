@@ -24,7 +24,7 @@ function App() {
             <section id="exp">
                 <Experience />
             </section>
-            <section className="mt-20" id="projects">
+            <section className="mt-10" id="projects">
                 <ProjectsCards />
                 {/* <Projects/> */}
             </section>

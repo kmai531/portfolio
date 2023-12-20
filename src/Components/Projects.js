@@ -75,24 +75,26 @@ export default function Projects() {
             <h1 className="text-4xl flex justify-center font-bold mb-10">
                 Projects
             </h1>
-            <ProjectCard
-                title="Coffee Maker"
-                description="Java Coffee Maker Woah woah"
-                imgSrc={p1}
-                tags={["Java", "HTML", "CSS"]}
-            ></ProjectCard>
-            <ProjectCard
-                title="Game Engine"
-                description="Game engine built in C++ jlksdjaklsjdalskjdaksldjaksljdsalkdjalksjdlkasjdlksajdlkasjdlksjdlkajd"
-                imgSrc={p2}
-                tags={["C++"]}
-            ></ProjectCard>
-            <ProjectCard
-                title="Game AI projects"
-                description="Game AI built in C++"
-                imgSrc={p3}
-                tags={["C++"]}
-            ></ProjectCard>
+            <div className="flex flex-row">
+                <ProjectCard
+                    title="Coffee Maker"
+                    description="Java Coffee Maker Woah woah"
+                    imgSrc={p1}
+                    tags={["Java", "HTML", "CSS"]}
+                ></ProjectCard>
+                <ProjectCard
+                    title="Game Engine"
+                    description="Game engine built in C++ jlksdjaklsjdalskjdaksldjaksljdsalkdjalksjdlkasjdlksajdlkasjdlksjdlkajd"
+                    imgSrc={p2}
+                    tags={["C++"]}
+                ></ProjectCard>
+                <ProjectCard
+                    title="Game AI projects"
+                    description="Game AI built in C++"
+                    imgSrc={p3}
+                    tags={["C++"]}
+                ></ProjectCard>
+            </div>
         </div>
     );
 }
